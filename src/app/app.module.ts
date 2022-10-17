@@ -9,6 +9,7 @@ import { PricingComponent } from './pricing/pricing.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
+import { HeroComponent } from './hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SignupComponent } from './auth/signup/signup.component';
     PricingComponent,
     FooterComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
