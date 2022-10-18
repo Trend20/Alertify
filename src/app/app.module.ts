@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { HeroComponent } from './hero/hero.component';
+import { TestimoniesComponent } from './testimonies/testimonies.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HeroComponent } from './hero/hero.component';
     FooterComponent,
     LoginComponent,
     SignupComponent,
-    HeroComponent
+    HeroComponent,
+    TestimoniesComponent
   ],
   imports: [
     BrowserModule,
