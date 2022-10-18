@@ -50,3 +50,6 @@ form button{
   cursor: pointer;
 }
 
+.hero img{
+  margin-top: 20px;
+}
