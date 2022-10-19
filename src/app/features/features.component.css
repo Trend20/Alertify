@@ -21,6 +21,20 @@
   font-weight: 700;
 }
 
+.top-content h3 span{
+  font-size: 2rem;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.top-content p{
+  border-radius: 25px;
+  width: 5%;
+  display: flex;
+  border: 3px solid #471e48;
+  margin-top: 30px;
+}
+
 .main-content{
   display: grid;
   width: 100%;
@@ -54,6 +68,7 @@
   width: 100%;
   line-height: 1.2;
   height: 90px;
+  font-weight: 600;
 }
 
 .content p{
