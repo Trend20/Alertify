@@ -10,12 +10,13 @@
 
 .hero p{
   font-size: 1.5rem;
+  margin-top: 30px;
 }
 
 .hero h1{
   display: flex;
   font-size: 3rem;
-  margin-top: 0px;
+  margin-top: 30px;
 }
 
 form{
@@ -25,7 +26,8 @@ form{
   justify-content: space-between;
   border: 1px solid #471e48;
   border-radius: 50px;
-  padding: 8px;
+  padding: 5px;
+  margin-top: 50px;
 }
 
 form input{
