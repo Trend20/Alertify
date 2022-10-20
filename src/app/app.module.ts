@@ -12,6 +12,7 @@ import { SignupComponent } from './auth/signup/signup.component';
 import { HeroComponent } from './hero/hero.component';
 import { TestimoniesComponent } from './testimonies/testimonies.component';
 import { DetailsComponent } from './details/details.component';
+import { MoreComponent } from './more/more.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DetailsComponent } from './details/details.component';
     SignupComponent,
     HeroComponent,
     TestimoniesComponent,
-    DetailsComponent
+    DetailsComponent,
+    MoreComponent
   ],
   imports: [
     BrowserModule,

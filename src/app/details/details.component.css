@@ -93,3 +93,9 @@
   background: rgb(224, 93, 27);
   cursor: pointer;
 }
+
+.content-img{
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
