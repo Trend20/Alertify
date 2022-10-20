@@ -1,0 +1,37 @@
+.details-section{
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.details-header h3{
+  font-size: 2rem;
+  height: 80px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.details-header p{
+    border-radius: 25px;
+    width: 5%;
+    display: flex;
+    border: 3px solid #471e48;
+}
+
+.details-content{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 100px;
+}

@@ -1,6 +1,20 @@
 <div class="details-section">
   <div class="details-header">
     <h3>{{ heading }}</h3>
-    <span></span>
+    <p></p>
+  </div>
+
+  <div class="details-content">
+    <div class="content" *ngFor="let content of detailsSectionContent">
+      <div class="content-text">
+        <h3>{{ content.heading }}</h3>
+        <span></span>
+        <p>{{ content.desc }}</p>
+        <button>{{ content.btnText }}</button>
+      </div>
+      <div class="content-img">
+        <img src="{{ content.imgUrl }}" alt="">
+      </div>
+    </div>
   </div>
 </div>
