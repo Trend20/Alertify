@@ -1,1 +1,9 @@
-<p>more works!</p>
+<div class="more">
+  <div class="more-content" *ngFor="let elem of moreSectionContent">
+    <span>
+      <img src="{{ elem.imgUrl }}" alt="elem">
+      <h3>{{ elem.heading }}</h3>
+    </span>
+    <p>{{ elem.desc }}</p>
+  </div>
+</div>
