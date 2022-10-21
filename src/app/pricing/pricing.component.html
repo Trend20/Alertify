@@ -16,14 +16,14 @@
       </div>
       <div class="items">
         <ul>
-          <li>{{ item.listItems.first }}</li>
-          <li>{{ item.listItems.item2 }}</li>
-          <li>{{ item.listItems.item3 }}</li>
-          <li>{{ item.listItems.item4 }}</li>
-          <li>{{ item.listItems.item5 }}</li>
+          <li id="bold"><i class="fa-solid fa-check"></i>{{ item.listItems.first }}</li>
+          <li><i class="fa-solid fa-check"></i>{{ item.listItems.item2 }}</li>
+          <li><i class="fa-solid fa-check"></i>{{ item.listItems.item3 }}</li>
+          <li><i class="fa-solid fa-check"></i>{{ item.listItems.item4 }}</li>
+          <li *ngIf="item.listItems.item5" ><i class="fa-solid fa-check"></i>{{ item.listItems.item5 }}</li>
         </ul>
       </div>
-      <button>Start Now</button>
+      <button id="start-btn">Start Now</button>
     </div>
   </div>
 </div>

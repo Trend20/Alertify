@@ -26,7 +26,7 @@ export class PricingComponent implements OnInit {
       image:'/assets/images/ballonIcon.svg',
       priceTag:{
         priceText: 'Starter',
-        value: 5.98,
+        value: 5,
         sub: .98,
         period: 'Per Month'
       },
