@@ -7,6 +7,54 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PricingComponent implements OnInit {
 
+  pricingContent=[
+    {
+      image:'/assets/images/kiteIcon.svg',
+      priceTag:{
+        priceText: 'Free',
+        value: 0,
+        period: 'Per Month'
+      },
+      listItems:{
+        first: '1 Monitor',
+        item2: 'Twitter, Reddit & HackerNews',
+        item3: 'Limited Filters',
+        item4: 'Recent Mentions Notifications'
+      }
+    },
+    {
+      image:'/assets/images/ballonIcon.svg',
+      priceTag:{
+        priceText: 'Starter',
+        value: 5.98,
+        sub: .98,
+        period: 'Per Month'
+      },
+      listItems:{
+        first: '2 Monitor',
+        item2: 'Facebook, Instagram, YouTube ',
+        item3: 'Blogs, Forums, & News',
+        item4: 'Advanced Filters',
+        item5: 'Recent & Top Mentions Notifications'
+      }
+    },
+    {
+      image:'/assets/images/rocketIcon.svg',
+      priceTag:{
+        priceText: 'Pro',
+        value: 14,
+        sub: .95,
+        period: 'Per Month'
+      },
+      listItems:{
+        first: '5 Monitor',
+        item2: 'Facebook, Instagram, YouTube ',
+        item3: 'Blogs, Forums, & News',
+        item4: 'Advanced Filters',
+        item5: 'Recent & Top Mentions Notifications'
+      }
+    }
+  ]
   constructor() { }
 
   ngOnInit(): void {

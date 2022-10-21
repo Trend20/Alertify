@@ -4,4 +4,26 @@
     <p>Find news articles, blogs and tweets about your startup</p>
     <span></span>
   </div>
+  <div class="pricing-cards">
+    <div class="card" *ngFor="let item of pricingContent">
+      <img src="{{ item.image }}" alt="">
+      <div class="price">
+        <h3>{{ item.priceTag.priceText }}</h3>
+        <span>
+          <h1><sup>$</sup>{{ item.priceTag.value }}<sub>{{ item.priceTag.sub }}</sub></h1>
+          <p>{{ item.priceTag.period }}</p>
+        </span>
+      </div>
+      <div class="items">
+        <ul>
+          <li>{{ item.listItems.first }}</li>
+          <li>{{ item.listItems.item2 }}</li>
+          <li>{{ item.listItems.item3 }}</li>
+          <li>{{ item.listItems.item4 }}</li>
+          <li>{{ item.listItems.item5 }}</li>
+        </ul>
+      </div>
+      <button>Start Now</button>
+    </div>
+  </div>
 </div>
