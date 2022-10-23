@@ -151,7 +151,8 @@ sup{
   font-weight: 200;
 }
 
-.items ul li i{
+
+mat-icon{
   color: green;
   font-size: 1.2rem;
   margin-right: 10px;
