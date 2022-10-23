@@ -23,7 +23,7 @@
 }
 
 .footer-text p{
-  margin-top: 0px !important;
+  margin-top: -5px !important;
   color: #000;
   font-size: .8rem !important;
   opacity: .8;
