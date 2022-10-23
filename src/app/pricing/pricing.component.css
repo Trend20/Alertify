@@ -42,22 +42,46 @@
   border: 3px solid #471e48;
   margin-top: 20px;
 }
-
+.card-section{
+  display: flex;
+  width: 100%;
+}
 .pricing-cards{
   display: flex;
   width: 100%;
   justify-content: center;
   margin-top: 100px;
+  background-color: rgba(266, 100, 44, 0.02);
 }
 
 .card{
-  padding: 20px;
+  padding: 29px;
   display: flex;
   flex-direction: column;
-  background: rgb(255, 255, 255);
   justify-content: center;
   align-items: center;
-  width: 30%;
+  box-shadow: 0 2px 30px 0 rgba(245, 90, 8, 0.08);
+  background-color: #ffffff;
+  min-width: 385px;
+}
+
+#first,
+#third{
+  margin: 30px 0px;
+}
+
+#second{
+  border-radius: 6px;
+box-shadow: 0 2px 30px 0 rgba(245, 90, 8, 0.08);
+background-color: #ffffff;
+padding: 29px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+position: relative;
+min-width: 450px;
+height: 600px;
+margin: 0px !important;
 }
 
 .card img{
@@ -155,6 +179,11 @@ sup{
   font-weight: 400;
   font-size: 1.1rem;
   background: transparent;
+}
+
+#second button{
+  background: rgb(224, 93, 27);
+  color: #ffffff;
 }
 
 

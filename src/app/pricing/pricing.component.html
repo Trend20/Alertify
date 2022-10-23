@@ -4,26 +4,28 @@
     <p>Find news articles, blogs and tweets about your startup</p>
     <span></span>
   </div>
-  <div class="pricing-cards" *ngFor="let item of pricingContent">
-    <div class="card" id="{{ item.id }}">
-      <img src="{{ item.image }}" alt="">
-      <div class="price">
-        <h3>{{ item.priceTag.priceText }}</h3>
-        <span>
-          <h1><sup>$</sup>{{ item.priceTag.value }}<sub>{{ item.priceTag.sub }}</sub></h1>
-          <p>{{ item.priceTag.period }}</p>
-        </span>
+  <div class="card-section">
+    <div class="pricing-cards" *ngFor="let item of pricingContent">
+      <div class="card" id="{{ item.id }}">
+        <img src="{{ item.image }}" alt="">
+        <div class="price">
+          <h3>{{ item.priceTag.priceText }}</h3>
+          <span>
+            <h1><sup>$</sup>{{ item.priceTag.value }}<sub>{{ item.priceTag.sub }}</sub></h1>
+            <p>{{ item.priceTag.period }}</p>
+          </span>
+        </div>
+        <div class="items">
+          <ul>
+            <li id="bold"><i class="fa-solid fa-check"></i>{{ item.listItems.first }}</li>
+            <li><i class="fa-solid fa-check"></i>{{ item.listItems.item2 }}</li>
+            <li><i class="fa-solid fa-check"></i>{{ item.listItems.item3 }}</li>
+            <li><i class="fa-solid fa-check"></i>{{ item.listItems.item4 }}</li>
+            <li *ngIf="item.listItems.item5" ><i class="fa-solid fa-check"></i>{{ item.listItems.item5 }}</li>
+          </ul>
+        </div>
+        <button id="start-btn">Start Now</button>
       </div>
-      <div class="items">
-        <ul>
-          <li id="bold"><i class="fa-solid fa-check"></i>{{ item.listItems.first }}</li>
-          <li><i class="fa-solid fa-check"></i>{{ item.listItems.item2 }}</li>
-          <li><i class="fa-solid fa-check"></i>{{ item.listItems.item3 }}</li>
-          <li><i class="fa-solid fa-check"></i>{{ item.listItems.item4 }}</li>
-          <li *ngIf="item.listItems.item5" ><i class="fa-solid fa-check"></i>{{ item.listItems.item5 }}</li>
-        </ul>
-      </div>
-      <button id="start-btn">Start Now</button>
     </div>
   </div>
 </div>
