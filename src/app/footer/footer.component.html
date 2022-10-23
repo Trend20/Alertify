@@ -1,1 +1,6 @@
-<p>footer works!</p>
+<div class="footer-section">
+  <img src="/assets/images/logo.svg" alt="footer-logo">
+  <div class="footer-text">
+    <p *ngFor="let text of footerText">{{ text }}</p>
+  </div>
+</div>

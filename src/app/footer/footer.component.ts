@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  footerText=[
+    'Copyright © Notify. All Rights Reserved.',
+    'Notify is a 3rd party Experience. It is not created by, affiliated with, or supported by Slack.',
+    'Privacy Policy'
+  ]
   constructor() { }
 
   ngOnInit(): void {
