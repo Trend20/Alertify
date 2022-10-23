@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroComponent implements OnInit {
 
+  heroDescription = 'Whenever your startup gets mentioned on';
+  pageHeader = 'Get Notified on Slack or Email';
+
   constructor() { }
 
   ngOnInit(): void {
