@@ -1,6 +1,5 @@
 .details-section{
   display: flex;
-  padding: 50px;
   flex-direction: column;
   width: 100%;
   align-items: center;
@@ -12,7 +11,6 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-top: 100px;
 }
 
 .details-header h3{
@@ -49,32 +47,33 @@
 
 .content-text{
   display: flex;
-  width: 50%;
+  width: 30%;
   flex-direction: column;
-  margin-left: 100px;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 200px;
 }
 
 .content-text h3{
   font-size: 2rem;
-  line-height: 60px;
+  line-height: 40px;
   font-weight: 700;
-  width: 50%;
+  width: 100%;
   margin-top: 30px;
   color: rgb(224, 93, 27);
 }
 
 .content-text span{
   border-radius: 25px;
-  width: 10%;
+  width: 30%;
   display: flex;
-  margin-top: 20px;
   border: 3px solid rgb(224, 93, 27);
 }
 
 .content-text p{
   font-size: 1rem;
   font-weight: 200;
-  width: 50%;
+  width: 80%;
   display: flex;
   margin-top: 20px;
   line-height: 2;
@@ -83,8 +82,8 @@
 
 .content-text button{
   padding: 15px;
-  width: 30%;
-  margin-top: 30px;
+  width: 50%;
+  margin-top: 20px;
   border: none;
   border-radius: 7px;
   color: #fff;
@@ -96,12 +95,14 @@
 
 .content-img{
   display: flex;
-  width: 50%;
+  width: 70%;
   align-items: center;
+  justify-content: center;
 }
 
 .content-img img{
   display: flex;
   max-width: 100%;
-  margin-right: 50px;
+  margin-right: 100px;
+  margin-top: 100px !important;
 }
