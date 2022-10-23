@@ -20,14 +20,16 @@
   height: 80px;
   font-weight: 700;
   margin-top: 30px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
 }
 
 .top-content h3 span{
   font-size: 4rem;
-  line-height: 40px;
   font-weight: 700;
   color: rgb(224, 93, 27);
-  margin-top: 20px;
+  padding: 0px 10px;
 }
 
 .top-content p{
@@ -35,7 +37,6 @@
   width: 5%;
   display: flex;
   border: 3px solid #471e48;
-  margin-top: 30px;
 }
 
 .main-content{
@@ -70,18 +71,18 @@
   justify-content: center;
   width: 100%;
   line-height: 1.2;
-  height: 90px;
+  height: 70px;
   font-weight: 600;
 }
 
 .content p{
-  font-size: 1rem;
-  font-weight: 200;
+  font-size: .9rem;
+  font-weight: 100 !important;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  color: #000;
   line-height: 2;
   text-align: center;
   opacity: .8;
