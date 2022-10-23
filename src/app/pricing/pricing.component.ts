@@ -20,7 +20,8 @@ export class PricingComponent implements OnInit {
         item2: 'Twitter, Reddit & HackerNews',
         item3: 'Limited Filters',
         item4: 'Recent Mentions Notifications'
-      }
+      },
+      id: 'first'
     },
     {
       image:'/assets/images/ballonIcon.svg',
@@ -36,7 +37,8 @@ export class PricingComponent implements OnInit {
         item3: 'Blogs, Forums, & News',
         item4: 'Advanced Filters',
         item5: 'Recent & Top Mentions Notifications'
-      }
+      },
+      id: 'second'
     },
     {
       image:'/assets/images/rocketIcon.svg',
@@ -52,7 +54,8 @@ export class PricingComponent implements OnInit {
         item3: 'Blogs, Forums, & News',
         item4: 'Advanced Filters',
         item5: 'Recent & Top Mentions Notifications'
-      }
+      },
+      id: 'third'
     }
   ]
   constructor() { }

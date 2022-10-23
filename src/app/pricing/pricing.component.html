@@ -4,8 +4,8 @@
     <p>Find news articles, blogs and tweets about your startup</p>
     <span></span>
   </div>
-  <div class="pricing-cards">
-    <div class="card" *ngFor="let item of pricingContent">
+  <div class="pricing-cards" *ngFor="let item of pricingContent">
+    <div class="card" id="{{ item.id }}">
       <img src="{{ item.image }}" alt="">
       <div class="price">
         <h3>{{ item.priceTag.priceText }}</h3>
