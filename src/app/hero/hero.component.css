@@ -7,18 +7,19 @@
   color: #471e48;
   height: auto;
   padding-top: 70px;
-  /* background-color: rgba(237, 244, 252, 0.42); */
 }
 
 .hero p{
   font-size: 1.8rem;
   line-height: 50px;
+  overflow: hidden;
 }
 
 .hero h1{
   font-size: 4rem;
   line-height: 50px;
   font-weight: 700;
+  overflow: hidden;
 }
 
 form{
